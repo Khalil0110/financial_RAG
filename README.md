@@ -15,7 +15,6 @@ It allows users to ask natural-language questions and receive **grounded answers
 ## Setup
 ### 1. Clone the repo
 git clone https://github.com/Khalil0110/financial_RAG/
-cd financial-rag
 ### 2. Create virtual environment
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
@@ -27,3 +26,4 @@ pip install -r requirements.txt
 python ingestion/run_ingestion.py
 ### 5. Run the interactive app
 python -m app.app
+
