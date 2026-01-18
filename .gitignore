@@ -5,6 +5,7 @@ env/
 venv/
 
 data/amf/
+data/index
 
 .DS_Store
 Thumbs.db
